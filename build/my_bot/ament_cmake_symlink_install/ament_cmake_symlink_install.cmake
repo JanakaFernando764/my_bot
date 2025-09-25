@@ -313,9 +313,6 @@ message(STATUS "Execute custom install script")
 # install(DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/my_bot")
 ament_cmake_symlink_install_directory("/home/janaka/dev_ws/src/my_bot" DIRECTORY "config" "description" "launch" "worlds" "DESTINATION" "share/my_bot")
 
-# install(PROGRAMS "my_bot/mecanum_kinematics.py" "DESTINATION" "lib/my_bot")
-ament_cmake_symlink_install_programs("/home/janaka/dev_ws/src/my_bot" PROGRAMS "my_bot/mecanum_kinematics.py" "DESTINATION" "lib/my_bot")
-
 # install(FILES "/home/janaka/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/janaka/dev_ws/src/my_bot" FILES "/home/janaka/dev_ws/build/my_bot/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/my_bot" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

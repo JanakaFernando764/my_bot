@@ -36,9 +36,5 @@ install(
   DIRECTORY config description launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
-install(PROGRAMS
-  my_bot/mecanum_kinematics.py
-  DESTINATION lib/${PROJECT_NAME}
-)
 
 ament_package()

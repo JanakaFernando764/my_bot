@@ -35,37 +35,14 @@ def generate_launch_description():
     spawn_entity = Node(package='gazebo_ros', executable='spawn_entity.py',
                         arguments=['-topic', 'robot_description',
                                    '-entity', 'my_bot'],
-                        output='screen')
+                        output='screen'
+                        )
 
 
-    # 4. Start joint_state_broadcaster
-    joint_state_broadcaster_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
-        output="screen"
-    )
 
-    # 5. Start wheel_velocity_controller (needed by mecanum_kinematics node)
-    wheel_velocity_controller_spawner = Node(
-        package="controller_manager",
-        executable="spawner",
-        arguments=["wheel_velocity_controller", "--controller-manager", "/controller_manager"],
-        output="screen"
-    )
-
-    # 6. Launch mecanum kinematics node
-    mecanum_kinematics_node = Node(
-        package='my_bot',
-        executable='mecanum_kinematics.py',
-        output='screen'
-    )
-
+    # Launch them all!
     return LaunchDescription([
         rsp,
         gazebo,
-        spawn_entity,
-        joint_state_broadcaster_spawner,
-        wheel_velocity_controller_spawner,
-        mecanum_kinematics_node
+        spawn_entity
     ])

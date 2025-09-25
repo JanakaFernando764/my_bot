@@ -1,1 +1,0 @@
-/home/janaka/dev_ws/src/my_bot/launch/robot_launch_with_control.py

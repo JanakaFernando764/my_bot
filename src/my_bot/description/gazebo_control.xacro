@@ -6,16 +6,14 @@
             <commandTopic>cmd_vel</commandTopic>
             <odometryTopic>odom</odometryTopic>
             <odometryRate>20.0</odometryRate>
-            <robotBaseFrame>base_footprint</robotBaseFrame>
 
             <!-- Wheel Information -->
-            <left_joint>back_left_wheel_joint</left_joint>
-            <right_joint>back_right_wheel_joint</right_joint>
-            <left_joint>front_right_wheel_joint</left_joint>
-            <right_joint>front_left_wheel_joint</right_joint>
-            <wheel_separation>0.35</wheel_separation>
-            <wheel_diameter>0.1</wheel_diameter>
-
+            <front_left_joint>front_left_wheel_joint</front_left_joint>
+            <front_right_joint>front_right_wheel_joint</front_right_joint>
+            <back_left_joint>back_left_wheel_joint</back_left_joint>
+            <back_right_joint>back_right_wheel_joint</back_right_joint>
+            <wheel_separation>0.19</wheel_separation>
+            <wheel_diameter>0.03</wheel_diameter>
 
 
             <!-- Limits -->
@@ -33,37 +31,6 @@
             <publish_wheel_tf>true</publish_wheel_tf>
 
         </plugin>
-
-        <!-- <plugin name="imu_plugin" filename="libgazebo_ros_imu.so">
-            <alwaysOn>true</alwaysOn>
-            <! <bodyName>base_footprint</bodyName> >
-            <topicName>imu</topicName>
-            <serviceName>imu_service</serviceName>
-            <gaussianNoise>0.0</gaussianNoise>
-            <updateRate>20.0</updateRate>
-        </plugin> -->
-    </gazebo>
-
-        <gazebo reference="imu_link">
-            <gravity>false</gravity>
-            <sensor name="imu_sensor" type="imu">
-                <always_on>true</always_on>
-                <update_rate>100</update_rate>
-                <visualize>true</visualize>
-                <topic>__default_topic__</topic>
-                <plugin filename="libgazebo_ros_imu_sensor.so" name="imu_plugin">
-                    <topicName>imu</topicName>
-                    <bodyName>imu_link</bodyName>
-                    <updateRateHZ>10.0</updateRateHZ>
-                    <gaussianNoise>0.0</gaussianNoise>
-                    <xyzOffset>0 0 0</xyzOffset>
-                    <rpyOffset>0 0 0</rpyOffset>
-                    <frameName>imu_link</frameName>
-                    <initialOrientationAsReference>false</initialOrientationAsReference>
-                </plugin>
-                <pose>0 0 0 0 0 0</pose>
-            </sensor>
-
     </gazebo>
 
 

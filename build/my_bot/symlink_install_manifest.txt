@@ -1,4 +1,5 @@
 /home/janaka/dev_ws/install/my_bot/share/my_bot/config/empty.yaml
+/home/janaka/dev_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
 /home/janaka/dev_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
@@ -7,10 +8,8 @@
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
 /home/janaka/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
-/home/janaka/dev_ws/install/my_bot/share/my_bot/launch/robot_launch_with_control.py
 /home/janaka/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/janaka/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
-/home/janaka/dev_ws/install/my_bot/lib/my_bot/mecanum_kinematics.py
 /home/janaka/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
 /home/janaka/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
 /home/janaka/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
