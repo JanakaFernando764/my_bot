@@ -37,8 +37,32 @@ def generate_launch_description():
                                    '-entity', 'my_bot'],
                         output='screen'
                         )
-
-
+    
+    rviz = Node(
+        package='rviz2',
+        executable='rviz2',
+        name='rviz2',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+    )
+    # Controller manager node with sim time
+    controller_manager = Node(
+        package='controller_manager',
+        executable='ros2_control_node',
+        parameters=[
+            os.path.join(
+                get_package_share_directory(package_name),
+                'config',
+                'my_controllers.yaml'
+            ),
+            {'use_sim_time': True}
+        ],
+        remappings=[
+        ('/mec_drive_controller/odometry', '/odom'),
+        ('/mec_drive_controller/tf_odometry', '/tf')
+     ],
+        output='screen'
+    )
 
     # Launch them all!
     return LaunchDescription([

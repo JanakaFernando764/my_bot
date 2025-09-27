@@ -1,0 +1,326 @@
+[0.000000] (-) TimerEvent: {}
+[0.000137] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.000168] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.000180] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.000187] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.000194] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.000204] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.000210] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.000217] (-) JobUnselected: {'identifier': 'gpio_controllers'}
+[0.000223] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.000229] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.000235] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.000241] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.000248] (-) JobUnselected: {'identifier': 'my_bot'}
+[0.000254] (-) JobUnselected: {'identifier': 'pid_controller'}
+[0.000260] (-) JobUnselected: {'identifier': 'pose_broadcaster'}
+[0.000266] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.000273] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.000279] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.000285] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.000291] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.000297] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.000303] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.000309] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.000315] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.000323] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict()}
+[0.000331] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[0.014670] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'cmake'}
+[0.015063] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/mecanum_drive_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/mecanum_drive_controller'], 'cwd': '/home/janaka/dev_ws/build/mecanum_drive_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2193,unix/janaka-ros2:/tmp/.ICE-unix/2193'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fa1fe30_003c_439c_bbee_c9f39d20b59f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099532] (-) TimerEvent: {}
+[0.115642] (mecanum_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.124502] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.193845] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.197631] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.198168] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.198542] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.199667] (-) TimerEvent: {}
+[0.202012] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299804] (-) TimerEvent: {}
+[0.304513] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.345891] (mecanum_drive_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.378706] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.399914] (-) TimerEvent: {}
+[0.420393] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.425211] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.434461] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.447396] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.460855] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500032] (-) TimerEvent: {}
+[0.600301] (-) TimerEvent: {}
+[0.626926] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.631084] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.655141] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.700429] (-) TimerEvent: {}
+[0.706632] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.708825] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.718267] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.720826] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.727047] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.736595] (mecanum_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.745541] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.800557] (-) TimerEvent: {}
+[0.835738] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[0.836049] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.900683] (-) TimerEvent: {}
+[0.918760] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.919443] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.958111] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[0.960077] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[0.977669] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.991033] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.000741] (-) TimerEvent: {}
+[1.002877] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.011993] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.015486] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.022987] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.024006] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.024073] (mecanum_drive_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.069814] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.071832] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.087381] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.089815] (mecanum_drive_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.100807] (-) TimerEvent: {}
+[1.144028] (mecanum_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.150811] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.200920] (-) TimerEvent: {}
+[1.218752] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.222594] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.222829] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.223161] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.226400] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.227828] (mecanum_drive_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.278972] (mecanum_drive_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.299852] (mecanum_drive_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.300977] (-) TimerEvent: {}
+[1.306993] (mecanum_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/mecanum_drive_controller\n'}
+[1.316660] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[1.317395] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'build'}
+[1.318635] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janaka/dev_ws/build/mecanum_drive_controller', '--', '-j16', '-l16'], 'cwd': '/home/janaka/dev_ws/build/mecanum_drive_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2193,unix/janaka-ros2:/tmp/.ICE-unix/2193'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fa1fe30_003c_439c_bbee_c9f39d20b59f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[1.361254] (mecanum_drive_controller) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/janaka/dev_ws/build/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp /home/janaka/dev_ws/src/ros2_controllers/mecanum_drive_controller/src/mecanum_drive_controller.yaml `\x1b[0m\n'}
+[1.361476] (mecanum_drive_controller) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[1.361750] (mecanum_drive_controller) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[1.361920] (mecanum_drive_controller) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[1.401114] (-) TimerEvent: {}
+[1.501419] (-) TimerEvent: {}
+[1.601734] (-) TimerEvent: {}
+[1.637876] (mecanum_drive_controller) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mCreating deprecated header file /home/janaka/dev_ws/build/mecanum_drive_controller/include/mecanum_drive_controller_parameters.hpp\x1b[0m\n'}
+[1.654399] (mecanum_drive_controller) StdoutLine: {'line': b'[ 31%] Built target mecanum_drive_controller_parameters\n'}
+[1.671863] (mecanum_drive_controller) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[1.672116] (mecanum_drive_controller) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/mecanum_drive_controller.dir/src/odometry.cpp.o\x1b[0m\n'}
+[1.701843] (-) TimerEvent: {}
+[1.802212] (-) TimerEvent: {}
+[1.902603] (-) TimerEvent: {}
+[2.002933] (-) TimerEvent: {}
+[2.091446] (mecanum_drive_controller) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[2.103106] (-) TimerEvent: {}
+[2.122326] (mecanum_drive_controller) StdoutLine: {'line': b'[ 50%] Built target gmock_main\n'}
+[2.203254] (-) TimerEvent: {}
+[2.303595] (-) TimerEvent: {}
+[2.403925] (-) TimerEvent: {}
+[2.504270] (-) TimerEvent: {}
+[2.604601] (-) TimerEvent: {}
+[2.704929] (-) TimerEvent: {}
+[2.805265] (-) TimerEvent: {}
+[2.905600] (-) TimerEvent: {}
+[3.005934] (-) TimerEvent: {}
+[3.106277] (-) TimerEvent: {}
+[3.206600] (-) TimerEvent: {}
+[3.236010] (mecanum_drive_controller) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[3.290210] (mecanum_drive_controller) StdoutLine: {'line': b'[ 56%] Built target gmock\n'}
+[3.306738] (-) TimerEvent: {}
+[3.306984] (mecanum_drive_controller) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/test_load_mecanum_drive_controller.dir/test/test_load_mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[3.406880] (-) TimerEvent: {}
+[3.507227] (-) TimerEvent: {}
+[3.607552] (-) TimerEvent: {}
+[3.707876] (-) TimerEvent: {}
+[3.808590] (-) TimerEvent: {}
+[3.908921] (-) TimerEvent: {}
+[4.009268] (-) TimerEvent: {}
+[4.109603] (-) TimerEvent: {}
+[4.209934] (-) TimerEvent: {}
+[4.310363] (-) TimerEvent: {}
+[4.410698] (-) TimerEvent: {}
+[4.511036] (-) TimerEvent: {}
+[4.611366] (-) TimerEvent: {}
+[4.711704] (-) TimerEvent: {}
+[4.812038] (-) TimerEvent: {}
+[4.912366] (-) TimerEvent: {}
+[5.012697] (-) TimerEvent: {}
+[5.113035] (-) TimerEvent: {}
+[5.213366] (-) TimerEvent: {}
+[5.313704] (-) TimerEvent: {}
+[5.414030] (-) TimerEvent: {}
+[5.514362] (-) TimerEvent: {}
+[5.614692] (-) TimerEvent: {}
+[5.715036] (-) TimerEvent: {}
+[5.815372] (-) TimerEvent: {}
+[5.915711] (-) TimerEvent: {}
+[6.016038] (-) TimerEvent: {}
+[6.116366] (-) TimerEvent: {}
+[6.216695] (-) TimerEvent: {}
+[6.317027] (-) TimerEvent: {}
+[6.417364] (-) TimerEvent: {}
+[6.517704] (-) TimerEvent: {}
+[6.553157] (mecanum_drive_controller) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX executable test_load_mecanum_drive_controller\x1b[0m\n'}
+[6.617841] (-) TimerEvent: {}
+[6.718178] (-) TimerEvent: {}
+[6.718666] (mecanum_drive_controller) StdoutLine: {'line': b'[ 68%] Built target test_load_mecanum_drive_controller\n'}
+[6.818319] (-) TimerEvent: {}
+[6.918644] (-) TimerEvent: {}
+[7.018960] (-) TimerEvent: {}
+[7.119296] (-) TimerEvent: {}
+[7.219986] (-) TimerEvent: {}
+[7.320327] (-) TimerEvent: {}
+[7.420638] (-) TimerEvent: {}
+[7.520947] (-) TimerEvent: {}
+[7.621268] (-) TimerEvent: {}
+[7.721587] (-) TimerEvent: {}
+[7.821893] (-) TimerEvent: {}
+[7.922215] (-) TimerEvent: {}
+[8.022522] (-) TimerEvent: {}
+[8.122832] (-) TimerEvent: {}
+[8.223172] (-) TimerEvent: {}
+[8.323488] (-) TimerEvent: {}
+[8.423797] (-) TimerEvent: {}
+[8.524124] (-) TimerEvent: {}
+[8.624434] (-) TimerEvent: {}
+[8.724744] (-) TimerEvent: {}
+[8.825068] (-) TimerEvent: {}
+[8.925383] (-) TimerEvent: {}
+[9.025691] (-) TimerEvent: {}
+[9.126018] (-) TimerEvent: {}
+[9.226324] (-) TimerEvent: {}
+[9.326670] (-) TimerEvent: {}
+[9.427061] (-) TimerEvent: {}
+[9.527391] (-) TimerEvent: {}
+[9.627722] (-) TimerEvent: {}
+[9.728050] (-) TimerEvent: {}
+[9.828350] (-) TimerEvent: {}
+[9.928620] (-) TimerEvent: {}
+[9.950599] (mecanum_drive_controller) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX shared library libmecanum_drive_controller.so\x1b[0m\n'}
+[10.028765] (-) TimerEvent: {}
+[10.129092] (-) TimerEvent: {}
+[10.229400] (-) TimerEvent: {}
+[10.329720] (-) TimerEvent: {}
+[10.430016] (-) TimerEvent: {}
+[10.455415] (mecanum_drive_controller) StdoutLine: {'line': b'[ 75%] Built target mecanum_drive_controller\n'}
+[10.471614] (mecanum_drive_controller) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object CMakeFiles/test_mecanum_drive_controller_preceding.dir/test/test_mecanum_drive_controller_preceding.cpp.o\x1b[0m\n'}
+[10.471851] (mecanum_drive_controller) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/test_mecanum_drive_controller.dir/test/test_mecanum_drive_controller.cpp.o\x1b[0m\n'}
+[10.530145] (-) TimerEvent: {}
+[10.630476] (-) TimerEvent: {}
+[10.730813] (-) TimerEvent: {}
+[10.831499] (-) TimerEvent: {}
+[10.931793] (-) TimerEvent: {}
+[11.032061] (-) TimerEvent: {}
+[11.132344] (-) TimerEvent: {}
+[11.232622] (-) TimerEvent: {}
+[11.332951] (-) TimerEvent: {}
+[11.433292] (-) TimerEvent: {}
+[11.533629] (-) TimerEvent: {}
+[11.633983] (-) TimerEvent: {}
+[11.734313] (-) TimerEvent: {}
+[11.834663] (-) TimerEvent: {}
+[11.935030] (-) TimerEvent: {}
+[12.035364] (-) TimerEvent: {}
+[12.135695] (-) TimerEvent: {}
+[12.236626] (-) TimerEvent: {}
+[12.336925] (-) TimerEvent: {}
+[12.437185] (-) TimerEvent: {}
+[12.537460] (-) TimerEvent: {}
+[12.637708] (-) TimerEvent: {}
+[12.738031] (-) TimerEvent: {}
+[12.838363] (-) TimerEvent: {}
+[12.938700] (-) TimerEvent: {}
+[13.039038] (-) TimerEvent: {}
+[13.139367] (-) TimerEvent: {}
+[13.239699] (-) TimerEvent: {}
+[13.340030] (-) TimerEvent: {}
+[13.440365] (-) TimerEvent: {}
+[13.540700] (-) TimerEvent: {}
+[13.641036] (-) TimerEvent: {}
+[13.741359] (-) TimerEvent: {}
+[13.841683] (-) TimerEvent: {}
+[13.942024] (-) TimerEvent: {}
+[14.042344] (-) TimerEvent: {}
+[14.142666] (-) TimerEvent: {}
+[14.243007] (-) TimerEvent: {}
+[14.343333] (-) TimerEvent: {}
+[14.443662] (-) TimerEvent: {}
+[14.445209] (mecanum_drive_controller) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX executable test_mecanum_drive_controller_preceding\x1b[0m\n'}
+[14.544396] (-) TimerEvent: {}
+[14.645309] (-) TimerEvent: {}
+[14.745623] (-) TimerEvent: {}
+[14.795444] (mecanum_drive_controller) StdoutLine: {'line': b'[ 93%] Built target test_mecanum_drive_controller_preceding\n'}
+[14.845774] (-) TimerEvent: {}
+[14.946131] (-) TimerEvent: {}
+[15.046456] (-) TimerEvent: {}
+[15.146764] (-) TimerEvent: {}
+[15.247074] (-) TimerEvent: {}
+[15.347379] (-) TimerEvent: {}
+[15.447755] (-) TimerEvent: {}
+[15.548072] (-) TimerEvent: {}
+[15.648379] (-) TimerEvent: {}
+[15.748684] (-) TimerEvent: {}
+[15.849005] (-) TimerEvent: {}
+[15.949313] (-) TimerEvent: {}
+[16.049626] (-) TimerEvent: {}
+[16.149941] (-) TimerEvent: {}
+[16.250261] (-) TimerEvent: {}
+[16.350571] (-) TimerEvent: {}
+[16.450880] (-) TimerEvent: {}
+[16.551210] (-) TimerEvent: {}
+[16.651700] (-) TimerEvent: {}
+[16.752021] (-) TimerEvent: {}
+[16.852326] (-) TimerEvent: {}
+[16.952640] (-) TimerEvent: {}
+[17.052954] (-) TimerEvent: {}
+[17.153287] (-) TimerEvent: {}
+[17.253616] (-) TimerEvent: {}
+[17.353953] (-) TimerEvent: {}
+[17.400434] (mecanum_drive_controller) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_mecanum_drive_controller\x1b[0m\n'}
+[17.454094] (-) TimerEvent: {}
+[17.554422] (-) TimerEvent: {}
+[17.654749] (-) TimerEvent: {}
+[17.755085] (-) TimerEvent: {}
+[17.848275] (mecanum_drive_controller) StdoutLine: {'line': b'[100%] Built target test_mecanum_drive_controller\n'}
+[17.855189] (-) TimerEvent: {}
+[17.856129] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[17.856676] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'install'}
+[17.863626] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/janaka/dev_ws/build/mecanum_drive_controller'], 'cwd': '/home/janaka/dev_ws/build/mecanum_drive_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka/dev_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2221'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2193,unix/janaka-ros2:/tmp/.ICE-unix/2193'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0fa1fe30_003c_439c_bbee_c9f39d20b59f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.130'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[17.870196] (mecanum_drive_controller) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.870475] (mecanum_drive_controller) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[17.870731] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller_parameters.hpp\n'}
+[17.877145] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller//mecanum_drive_controller.xml\n'}
+[17.885575] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/mecanum_drive_controller.hpp\n'}
+[17.893406] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/odometry.hpp\n'}
+[17.900505] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/include/mecanum_drive_controller/mecanum_drive_controller/visibility_control.h\n'}
+[17.909190] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.sh\n'}
+[17.916938] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/library_path.dsv\n'}
+[17.924459] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/package_run_dependencies/mecanum_drive_controller\n'}
+[17.930864] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/parent_prefix_path/mecanum_drive_controller\n'}
+[17.938099] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.sh\n'}
+[17.944377] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/ament_prefix_path.dsv\n'}
+[17.949622] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.sh\n'}
+[17.955294] (-) TimerEvent: {}
+[17.956252] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/environment/path.dsv\n'}
+[17.963537] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.bash\n'}
+[17.969430] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.sh\n'}
+[17.976044] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.zsh\n'}
+[17.982589] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/local_setup.dsv\n'}
+[17.991726] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.dsv\n'}
+[18.000286] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/packages/mecanum_drive_controller\n'}
+[18.007463] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/mecanum_drive_controller\n'}
+[18.015264] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[18.022396] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[18.030378] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig.cmake\n'}
+[18.037380] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/mecanum_drive_controllerConfig-version.cmake\n'}
+[18.045066] (mecanum_drive_controller) StdoutLine: {'line': b'-- Symlinking: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/package.xml\n'}
+[18.053182] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/janaka/dev_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so\n'}
+[18.055400] (-) TimerEvent: {}
+[18.062073] (mecanum_drive_controller) StdoutLine: {'line': b'-- Set runtime path of "/home/janaka/dev_ws/install/mecanum_drive_controller/lib/libmecanum_drive_controller.so" to ""\n'}
+[18.062335] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport.cmake\n'}
+[18.062495] (mecanum_drive_controller) StdoutLine: {'line': b'-- Installing: /home/janaka/dev_ws/install/mecanum_drive_controller/share/mecanum_drive_controller/cmake/export_mecanum_drive_controllerExport-noconfig.cmake\n'}
+[18.064440] (mecanum_drive_controller) CommandEnded: {'returncode': 0}
+[18.074005] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 0}
+[18.074413] (-) EventReactorShutdown: {}
