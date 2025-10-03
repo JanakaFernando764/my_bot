@@ -1,0 +1,41 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${workspaceFolder}/.vscode/browse.vc.db",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/opt/ros/humble/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/ackermann_steering_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/admittance_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/bicycle_steering_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/diff_drive_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/effort_controllers/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/force_torque_sensor_broadcaster/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/forward_command_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/gpio_controllers/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/gripper_controllers/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/imu_sensor_broadcaster/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/joint_state_broadcaster/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/joint_trajectory_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/mecanum_drive_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/pid_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/pose_broadcaster/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/position_controllers/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/range_sensor_broadcaster/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/steering_controllers_library/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/tricycle_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/tricycle_steering_controller/include/**",
+        "/home/janaka/dev_ws/src/ros2_controllers/velocity_controllers/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ros2",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++17"
+    }
+  ],
+  "version": 4
+}

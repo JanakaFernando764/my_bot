@@ -1,0 +1,1 @@
+Invoking command in '/home/janaka/dev_ws/build/range_sensor_broadcaster': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/janaka/dev_ws/src/ros2_controllers/range_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/range_sensor_broadcaster

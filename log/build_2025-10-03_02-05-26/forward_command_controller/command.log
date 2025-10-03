@@ -1,0 +1,1 @@
+Invoking command in '/home/janaka/dev_ws/build/forward_command_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/janaka/dev_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/forward_command_controller

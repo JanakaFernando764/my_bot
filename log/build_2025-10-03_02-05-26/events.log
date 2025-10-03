@@ -1,0 +1,1051 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (admittance_controller) JobQueued: {'identifier': 'admittance_controller', 'dependencies': OrderedDict()}
+[0.000113] (diff_drive_controller) JobQueued: {'identifier': 'diff_drive_controller', 'dependencies': OrderedDict()}
+[0.000123] (force_torque_sensor_broadcaster) JobQueued: {'identifier': 'force_torque_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000132] (forward_command_controller) JobQueued: {'identifier': 'forward_command_controller', 'dependencies': OrderedDict()}
+[0.000140] (gpio_controllers) JobQueued: {'identifier': 'gpio_controllers', 'dependencies': OrderedDict()}
+[0.000214] (gripper_controllers) JobQueued: {'identifier': 'gripper_controllers', 'dependencies': OrderedDict()}
+[0.000223] (imu_sensor_broadcaster) JobQueued: {'identifier': 'imu_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000336] (joint_state_broadcaster) JobQueued: {'identifier': 'joint_state_broadcaster', 'dependencies': OrderedDict()}
+[0.000726] (joint_trajectory_controller) JobQueued: {'identifier': 'joint_trajectory_controller', 'dependencies': OrderedDict()}
+[0.000737] (mecanum_drive_controller) JobQueued: {'identifier': 'mecanum_drive_controller', 'dependencies': OrderedDict()}
+[0.000745] (my_bot) JobQueued: {'identifier': 'my_bot', 'dependencies': OrderedDict()}
+[0.000752] (pid_controller) JobQueued: {'identifier': 'pid_controller', 'dependencies': OrderedDict()}
+[0.000760] (pose_broadcaster) JobQueued: {'identifier': 'pose_broadcaster', 'dependencies': OrderedDict()}
+[0.000768] (range_sensor_broadcaster) JobQueued: {'identifier': 'range_sensor_broadcaster', 'dependencies': OrderedDict()}
+[0.000776] (ros2_controllers_test_nodes) JobQueued: {'identifier': 'ros2_controllers_test_nodes', 'dependencies': OrderedDict()}
+[0.000783] (rqt_joint_trajectory_controller) JobQueued: {'identifier': 'rqt_joint_trajectory_controller', 'dependencies': OrderedDict()}
+[0.000791] (steering_controllers_library) JobQueued: {'identifier': 'steering_controllers_library', 'dependencies': OrderedDict()}
+[0.000799] (tricycle_controller) JobQueued: {'identifier': 'tricycle_controller', 'dependencies': OrderedDict()}
+[0.000806] (ackermann_steering_controller) JobQueued: {'identifier': 'ackermann_steering_controller', 'dependencies': OrderedDict([('steering_controllers_library', '/home/janaka/dev_ws/install/steering_controllers_library')])}
+[0.000820] (bicycle_steering_controller) JobQueued: {'identifier': 'bicycle_steering_controller', 'dependencies': OrderedDict([('steering_controllers_library', '/home/janaka/dev_ws/install/steering_controllers_library')])}
+[0.000828] (effort_controllers) JobQueued: {'identifier': 'effort_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/janaka/dev_ws/install/forward_command_controller')])}
+[0.000837] (mecanumdrive_arduino) JobQueued: {'identifier': 'mecanumdrive_arduino', 'dependencies': OrderedDict([('diff_drive_controller', '/home/janaka/dev_ws/install/diff_drive_controller'), ('joint_state_broadcaster', '/home/janaka/dev_ws/install/joint_state_broadcaster'), ('ros2_controllers_test_nodes', '/home/janaka/dev_ws/install/ros2_controllers_test_nodes')])}
+[0.000847] (position_controllers) JobQueued: {'identifier': 'position_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/janaka/dev_ws/install/forward_command_controller')])}
+[0.000855] (tricycle_steering_controller) JobQueued: {'identifier': 'tricycle_steering_controller', 'dependencies': OrderedDict([('steering_controllers_library', '/home/janaka/dev_ws/install/steering_controllers_library')])}
+[0.000863] (velocity_controllers) JobQueued: {'identifier': 'velocity_controllers', 'dependencies': OrderedDict([('forward_command_controller', '/home/janaka/dev_ws/install/forward_command_controller')])}
+[0.000870] (ros2_controllers) JobQueued: {'identifier': 'ros2_controllers', 'dependencies': OrderedDict([('admittance_controller', '/home/janaka/dev_ws/install/admittance_controller'), ('diff_drive_controller', '/home/janaka/dev_ws/install/diff_drive_controller'), ('force_torque_sensor_broadcaster', '/home/janaka/dev_ws/install/force_torque_sensor_broadcaster'), ('forward_command_controller', '/home/janaka/dev_ws/install/forward_command_controller'), ('gpio_controllers', '/home/janaka/dev_ws/install/gpio_controllers'), ('gripper_controllers', '/home/janaka/dev_ws/install/gripper_controllers'), ('imu_sensor_broadcaster', '/home/janaka/dev_ws/install/imu_sensor_broadcaster'), ('joint_state_broadcaster', '/home/janaka/dev_ws/install/joint_state_broadcaster'), ('joint_trajectory_controller', '/home/janaka/dev_ws/install/joint_trajectory_controller'), ('mecanum_drive_controller', '/home/janaka/dev_ws/install/mecanum_drive_controller'), ('pid_controller', '/home/janaka/dev_ws/install/pid_controller'), ('pose_broadcaster', '/home/janaka/dev_ws/install/pose_broadcaster'), ('range_sensor_broadcaster', '/home/janaka/dev_ws/install/range_sensor_broadcaster'), ('steering_controllers_library', '/home/janaka/dev_ws/install/steering_controllers_library'), ('tricycle_controller', '/home/janaka/dev_ws/install/tricycle_controller'), ('ackermann_steering_controller', '/home/janaka/dev_ws/install/ackermann_steering_controller'), ('bicycle_steering_controller', '/home/janaka/dev_ws/install/bicycle_steering_controller'), ('effort_controllers', '/home/janaka/dev_ws/install/effort_controllers'), ('position_controllers', '/home/janaka/dev_ws/install/position_controllers'), ('tricycle_steering_controller', '/home/janaka/dev_ws/install/tricycle_steering_controller'), ('velocity_controllers', '/home/janaka/dev_ws/install/velocity_controllers')])}
+[0.000952] (forward_command_controller) JobStarted: {'identifier': 'forward_command_controller'}
+[0.004826] (steering_controllers_library) JobStarted: {'identifier': 'steering_controllers_library'}
+[0.007401] (diff_drive_controller) JobStarted: {'identifier': 'diff_drive_controller'}
+[0.009972] (joint_state_broadcaster) JobStarted: {'identifier': 'joint_state_broadcaster'}
+[0.012880] (admittance_controller) JobStarted: {'identifier': 'admittance_controller'}
+[0.015178] (force_torque_sensor_broadcaster) JobStarted: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.017743] (gpio_controllers) JobStarted: {'identifier': 'gpio_controllers'}
+[0.020314] (gripper_controllers) JobStarted: {'identifier': 'gripper_controllers'}
+[0.022954] (imu_sensor_broadcaster) JobStarted: {'identifier': 'imu_sensor_broadcaster'}
+[0.025419] (joint_trajectory_controller) JobStarted: {'identifier': 'joint_trajectory_controller'}
+[0.027959] (mecanum_drive_controller) JobStarted: {'identifier': 'mecanum_drive_controller'}
+[0.030772] (pid_controller) JobStarted: {'identifier': 'pid_controller'}
+[0.033093] (pose_broadcaster) JobStarted: {'identifier': 'pose_broadcaster'}
+[0.036358] (range_sensor_broadcaster) JobStarted: {'identifier': 'range_sensor_broadcaster'}
+[0.038667] (ros2_controllers_test_nodes) JobStarted: {'identifier': 'ros2_controllers_test_nodes'}
+[0.042487] (tricycle_controller) JobStarted: {'identifier': 'tricycle_controller'}
+[0.046951] (forward_command_controller) JobProgress: {'identifier': 'forward_command_controller', 'progress': 'cmake'}
+[0.047384] (forward_command_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/forward_command_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/forward_command_controller'], 'cwd': '/home/janaka/dev_ws/build/forward_command_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/forward_command_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.049162] (steering_controllers_library) JobProgress: {'identifier': 'steering_controllers_library', 'progress': 'cmake'}
+[0.049494] (steering_controllers_library) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/steering_controllers_library', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/steering_controllers_library'], 'cwd': '/home/janaka/dev_ws/build/steering_controllers_library', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/steering_controllers_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.050160] (diff_drive_controller) JobProgress: {'identifier': 'diff_drive_controller', 'progress': 'cmake'}
+[0.050370] (diff_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/diff_drive_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/diff_drive_controller'], 'cwd': '/home/janaka/dev_ws/build/diff_drive_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/diff_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.051643] (joint_state_broadcaster) JobProgress: {'identifier': 'joint_state_broadcaster', 'progress': 'cmake'}
+[0.051931] (joint_state_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/joint_state_broadcaster', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/joint_state_broadcaster'], 'cwd': '/home/janaka/dev_ws/build/joint_state_broadcaster', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/joint_state_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.052887] (admittance_controller) JobProgress: {'identifier': 'admittance_controller', 'progress': 'cmake'}
+[0.053232] (admittance_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/admittance_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/admittance_controller'], 'cwd': '/home/janaka/dev_ws/build/admittance_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/admittance_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.054246] (force_torque_sensor_broadcaster) JobProgress: {'identifier': 'force_torque_sensor_broadcaster', 'progress': 'cmake'}
+[0.055055] (force_torque_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/force_torque_sensor_broadcaster', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/force_torque_sensor_broadcaster'], 'cwd': '/home/janaka/dev_ws/build/force_torque_sensor_broadcaster', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/force_torque_sensor_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.055862] (gpio_controllers) JobProgress: {'identifier': 'gpio_controllers', 'progress': 'cmake'}
+[0.056170] (gpio_controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/gpio_controllers', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/gpio_controllers'], 'cwd': '/home/janaka/dev_ws/build/gpio_controllers', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/gpio_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.057462] (gripper_controllers) JobProgress: {'identifier': 'gripper_controllers', 'progress': 'cmake'}
+[0.057644] (gripper_controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/gripper_controllers', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/gripper_controllers'], 'cwd': '/home/janaka/dev_ws/build/gripper_controllers', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/gripper_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.059221] (imu_sensor_broadcaster) JobProgress: {'identifier': 'imu_sensor_broadcaster', 'progress': 'cmake'}
+[0.059474] (imu_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/imu_sensor_broadcaster', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/imu_sensor_broadcaster'], 'cwd': '/home/janaka/dev_ws/build/imu_sensor_broadcaster', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/imu_sensor_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.060794] (joint_trajectory_controller) JobProgress: {'identifier': 'joint_trajectory_controller', 'progress': 'cmake'}
+[0.061183] (joint_trajectory_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/joint_trajectory_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/joint_trajectory_controller'], 'cwd': '/home/janaka/dev_ws/build/joint_trajectory_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/joint_trajectory_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.062590] (mecanum_drive_controller) JobProgress: {'identifier': 'mecanum_drive_controller', 'progress': 'cmake'}
+[0.062919] (mecanum_drive_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/mecanum_drive_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/mecanum_drive_controller'], 'cwd': '/home/janaka/dev_ws/build/mecanum_drive_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/mecanum_drive_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.064440] (pid_controller) JobProgress: {'identifier': 'pid_controller', 'progress': 'cmake'}
+[0.064595] (pid_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/pid_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/pid_controller'], 'cwd': '/home/janaka/dev_ws/build/pid_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/pid_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.066298] (pose_broadcaster) JobProgress: {'identifier': 'pose_broadcaster', 'progress': 'cmake'}
+[0.066631] (pose_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/pose_broadcaster', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/pose_broadcaster'], 'cwd': '/home/janaka/dev_ws/build/pose_broadcaster', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/pose_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.068196] (range_sensor_broadcaster) JobProgress: {'identifier': 'range_sensor_broadcaster', 'progress': 'cmake'}
+[0.069080] (range_sensor_broadcaster) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/range_sensor_broadcaster', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/range_sensor_broadcaster'], 'cwd': '/home/janaka/dev_ws/build/range_sensor_broadcaster', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/range_sensor_broadcaster'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.099722] (-) TimerEvent: {}
+[0.202676] (-) TimerEvent: {}
+[0.303112] (-) TimerEvent: {}
+[0.338620] (forward_command_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.339028] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.339110] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.339164] (forward_command_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.339214] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.339259] (forward_command_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.339302] (forward_command_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.339347] (steering_controllers_library) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.339554] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.339613] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.339660] (steering_controllers_library) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.339704] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.339746] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.339788] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.339831] (diff_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.340321] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.340390] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.340435] (diff_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.340477] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.340515] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.340698] (diff_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.340912] (joint_state_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.340985] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.341022] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.341057] (joint_state_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.341092] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.341126] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.341158] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.341192] (admittance_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.341245] (admittance_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.341277] (admittance_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.341310] (admittance_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.341344] (admittance_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.341377] (admittance_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.341408] (admittance_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.341441] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.341497] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.341555] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.341596] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.341630] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.341666] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.341700] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.341736] (gpio_controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.341790] (gpio_controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.341825] (gpio_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.341859] (gpio_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.341894] (gpio_controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.341930] (gpio_controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.341966] (gpio_controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.342004] (gpio_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.342824] (gripper_controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.342959] (gripper_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.343006] (gripper_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.343046] (gripper_controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.343082] (gripper_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.343121] (gripper_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.343309] (gripper_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.343801] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.344322] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.344390] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.344438] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.344483] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.344533] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.344740] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.344796] (joint_trajectory_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.345012] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.345075] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.345119] (joint_trajectory_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.345161] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.345206] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.345247] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.345292] (tricycle_controller) JobProgress: {'identifier': 'tricycle_controller', 'progress': 'cmake'}
+[0.350486] (tricycle_controller) Command: {'cmd': ['/usr/bin/cmake', '/home/janaka/dev_ws/src/ros2_controllers/tricycle_controller', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/janaka/dev_ws/install/tricycle_controller'], 'cwd': '/home/janaka/dev_ws/build/tricycle_controller', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/tricycle_controller'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[0.369568] (gpio_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.369743] (steering_controllers_library) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.369822] (diff_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.369875] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.369924] (gripper_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.369973] (admittance_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.370028] (forward_command_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.370080] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.372816] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.373032] (gpio_controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.373088] (gpio_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.373128] (gpio_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.373915] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.377597] (gpio_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.403213] (-) TimerEvent: {}
+[0.440230] (forward_command_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.441163] (admittance_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.443557] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.443741] (joint_state_broadcaster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.443846] (diff_drive_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.444234] (gripper_controllers) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.444815] (joint_trajectory_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.445287] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.447887] (steering_controllers_library) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.478677] (steering_controllers_library) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.479074] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)\n'}
+[0.479145] (gripper_controllers) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.479204] (forward_command_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.479268] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.479325] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.479382] (diff_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.479437] (admittance_controller) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.479491] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[0.481917] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.482413] (admittance_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.506582] (-) TimerEvent: {}
+[0.519399] (gripper_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.519669] (steering_controllers_library) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.519745] (admittance_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.519810] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.519868] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527201] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527367] (diff_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527433] (forward_command_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527489] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.527550] (gpio_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.527604] (steering_controllers_library) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527654] (admittance_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527738] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527789] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527839] (gripper_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527887] (diff_drive_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527931] (forward_command_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.527974] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.528728] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.537109] (forward_command_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.537289] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.537401] (diff_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.537457] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.537504] (admittance_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.537959] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.538036] (steering_controllers_library) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.538857] (gripper_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.539116] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.552429] (forward_command_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553470] (admittance_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553634] (gripper_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553695] (steering_controllers_library) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553747] (joint_state_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553795] (diff_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553844] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553888] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.553931] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.573572] (joint_state_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573730] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573792] (joint_trajectory_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573845] (gripper_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573896] (forward_command_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573946] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.573993] (admittance_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.574039] (diff_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.574085] (steering_controllers_library) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.576772] (gpio_controllers) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.589147] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[0.605974] (gpio_controllers) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.606648] (-) TimerEvent: {}
+[0.651626] (gpio_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.653827] (gpio_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.662919] (gpio_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.676147] (gpio_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.690520] (gpio_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.702956] (gripper_controllers) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[0.703876] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[0.703980] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.704066] (admittance_controller) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[0.704148] (steering_controllers_library) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[0.706971] (-) TimerEvent: {}
+[0.759099] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.759363] (admittance_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.759433] (gripper_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.762869] (gripper_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.763046] (admittance_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.763112] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.784633] (steering_controllers_library) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.785673] (ros2_controllers_test_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/janaka/dev_ws/build/ros2_controllers_test_nodes/build', '--no-deps', 'symlink_data'], 'cwd': '/home/janaka/dev_ws/build/ros2_controllers_test_nodes', 'env': {'USER': 'janaka', 'LC_TIME': 'si_LK', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/janaka', 'OLDPWD': '/home/janaka', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'si_LK', 'SYSTEMD_EXEC_PID': '2219', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'ibus', 'LOGNAME': 'janaka', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'janaka', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'PATH': '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin', 'SESSION_MANAGER': 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'si_LK', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'si_LK', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'GNOME_TERMINAL_SERVICE': ':1.195', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'si_LK', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'si_LK', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'si_LK', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/janaka/dev_ws/build/ros2_controllers_test_nodes', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/janaka/dev_ws/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/janaka/dev_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'si_LK', 'LC_PAPER': 'si_LK', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg'}, 'shell': False}
+[0.787070] (forward_command_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.787143] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.787399] (steering_controllers_library) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.787466] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.787556] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.791580] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.791689] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.791749] (forward_command_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.791828] (diff_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.791891] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.791965] (diff_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.807063] (-) TimerEvent: {}
+[0.811079] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.812367] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.812931] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.814218] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.814810] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.815012] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.857642] (admittance_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.860584] (gripper_controllers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.860776] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.866363] (steering_controllers_library) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.866636] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.868592] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.868730] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.869076] (forward_command_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.870369] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.871156] (diff_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.871224] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.871324] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.872431] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.872559] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.874778] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.885153] (steering_controllers_library) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.891563] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.891759] (gpio_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.891821] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.891877] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.891929] (forward_command_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.891979] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.892018] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.892056] (gpio_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.892097] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.892141] (diff_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.892187] (gripper_controllers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.892231] (admittance_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.892581] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.892662] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.894508] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.895474] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.896577] (steering_controllers_library) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.899899] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.901644] (forward_command_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.901853] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.903353] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.903986] (diff_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.907209] (-) TimerEvent: {}
+[0.908991] (steering_controllers_library) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.913412] (imu_sensor_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.913742] (force_torque_sensor_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.916087] (forward_command_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.916190] (gpio_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[0.916246] (joint_state_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.916421] (diff_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.921845] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.922305] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.922759] (forward_command_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.922865] (steering_controllers_library) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.924113] (joint_state_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.924568] (diff_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.933114] (gripper_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.938817] (admittance_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.939284] (joint_trajectory_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.943017] (gripper_controllers) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.947070] (joint_trajectory_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.947889] (admittance_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[0.980681] (gpio_controllers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.982942] (gpio_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.005731] (gpio_controllers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.007310] (-) TimerEvent: {}
+[1.008658] (gpio_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.018140] (gpio_controllers) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.034614] (gpio_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.044593] (gpio_controllers) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.064693] (diff_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.065171] (diff_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.065675] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.065915] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.067455] (forward_command_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.067594] (forward_command_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.067710] (steering_controllers_library) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.067784] (steering_controllers_library) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.073058] (joint_state_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.073313] (joint_state_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.073531] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.074602] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.082560] (admittance_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.083875] (admittance_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.085577] (joint_trajectory_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.085756] (joint_trajectory_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.087042] (gripper_controllers) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.087302] (gripper_controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.110597] (-) TimerEvent: {}
+[1.122588] (gpio_controllers) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.122799] (gpio_controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.210693] (-) TimerEvent: {}
+[1.216730] (diff_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.216928] (diff_drive_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.217083] (gpio_controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.217143] (gpio_controllers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.217184] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.217233] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.217271] (steering_controllers_library) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.217317] (steering_controllers_library) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.219183] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.219321] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.220803] (forward_command_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.221763] (forward_command_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.223045] (joint_state_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.223172] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.225146] (admittance_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.227577] (admittance_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.232910] (gripper_controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.233081] (joint_trajectory_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.233149] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.233797] (gripper_controllers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.266280] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.266449] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.266519] (steering_controllers_library) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.266854] (gpio_controllers) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.267882] (diff_drive_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.268232] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.268356] (steering_controllers_library) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.269609] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.269752] (forward_command_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.269807] (forward_command_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.269939] (diff_drive_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.270572] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.272585] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.284311] (gpio_controllers) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.286077] (gpio_controllers) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.286603] (forward_command_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.287093] (diff_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.287315] (steering_controllers_library) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.287986] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.288559] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.293610] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.302268] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.303747] (forward_command_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.303881] (diff_drive_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.304396] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.305085] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.305178] (forward_command_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.305909] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.307575] (steering_controllers_library) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.309217] (gpio_controllers) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.310747] (-) TimerEvent: {}
+[1.310967] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.311147] (gpio_controllers) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.311687] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.318861] (steering_controllers_library) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.321027] (diff_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.326209] (diff_drive_controller) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.327139] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.327268] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.327326] (forward_command_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.330357] (forward_command_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.330467] (force_torque_sensor_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.330528] (imu_sensor_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.331080] (gpio_controllers) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.331201] (steering_controllers_library) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.331658] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.333451] (gpio_controllers) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.333949] (joint_state_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.335751] (steering_controllers_library) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.341556] (gpio_controllers) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.345599] (gpio_controllers) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.350799] (diff_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.352621] (diff_drive_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.358103] (steering_controllers_library) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.363797] (steering_controllers_library) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.364730] (steering_controllers_library) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.364871] (steering_controllers_library) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.370663] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.370844] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.372140] (diff_drive_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.374711] (diff_drive_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.376492] (forward_command_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.376664] (joint_state_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.380593] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.380753] (admittance_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.380813] (gripper_controllers) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.380865] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.382638] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.383464] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.384589] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.389769] (admittance_controller) StdoutLine: {'line': b'-- Found kinematics_interface: 0.4.0 (/opt/ros/humble/share/kinematics_interface/cmake)\n'}
+[1.394246] (gripper_controllers) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.398325] (admittance_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.398521] (gripper_controllers) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.398595] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.398652] (admittance_controller) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.16 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[1.401297] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.402621] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.402785] (steering_controllers_library) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.410854] (-) TimerEvent: {}
+[1.411350] (diff_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.415364] (gripper_controllers) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.417169] (gripper_controllers) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.418017] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.418283] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.419265] (steering_controllers_library) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.419404] (gpio_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.421651] (joint_trajectory_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.422602] (steering_controllers_library) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.453741] (admittance_controller) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.456998] (gpio_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[1.462620] (gripper_controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.466719] (admittance_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.466904] (admittance_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.466957] (admittance_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.467041] (joint_trajectory_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.467455] (steering_controllers_library) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.467636] (admittance_controller) StdoutLine: {'line': b'-- Found tf2_kdl: 0.25.16 (/opt/ros/humble/share/tf2_kdl/cmake)\n'}
+[1.468764] (gpio_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/gpio_controllers\n'}
+[1.469851] (gripper_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.474676] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.474862] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.480277] (admittance_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.483059] (admittance_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.491311] (gpio_controllers) CommandEnded: {'returncode': 0}
+[1.491708] (mecanum_drive_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.493402] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.493515] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.493570] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.493854] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.493915] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.493965] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.494016] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.494060] (mecanum_drive_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.494108] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.494151] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.494194] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.494239] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.494321] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.494357] (mecanum_drive_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.494392] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.494426] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.494460] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.494498] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.494539] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.494584] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.494633] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.494673] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.494709] (mecanum_drive_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.494744] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.494780] (mecanum_drive_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.494816] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.494851] (mecanum_drive_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.494888] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.494924] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.494959] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.494995] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.495031] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.495067] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.495103] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.495138] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.16 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.495169] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.495204] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.495240] (mecanum_drive_controller) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.495277] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.495314] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.495352] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.495412] (mecanum_drive_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.495476] (gpio_controllers) JobProgress: {'identifier': 'gpio_controllers', 'progress': 'build'}
+[1.495502] (gpio_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/janaka/dev_ws/build/gpio_controllers', '--', '-j16', '-l16'], 'cwd': '/home/janaka/dev_ws/build/gpio_controllers', 'env': OrderedDict([('USER', 'janaka'), ('LC_TIME', 'si_LK'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/janaka/dev_ws/install/mecanumdrive_arduino/lib:/home/janaka/dev_ws/install/mecanum_drive_controller/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/janaka'), ('OLDPWD', '/home/janaka'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'si_LK'), ('SYSTEMD_EXEC_PID', '2219'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/janaka/dev_ws/install:/home/janaka/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'janaka'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'janaka'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/janaka/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/janaka/.platformio/penv/bin:/home/janaka/.platformio/penv/bin'), ('SESSION_MANAGER', 'local/janaka-ros2:@/tmp/.ICE-unix/2192,unix/janaka-ros2:/tmp/.ICE-unix/2192'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'si_LK'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/96aac191_bf2e_4e27_a43c_04b07f481d71'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'si_LK'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('GNOME_TERMINAL_SERVICE', ':1.195'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'si_LK'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LC_MEASUREMENT', 'si_LK'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'si_LK'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/janaka/dev_ws/build/gpio_controllers'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'si_LK'), ('LC_PAPER', 'si_LK'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/janaka/dev_ws/install/my_bot:/home/janaka/dev_ws/install/mecanumdrive_arduino:/home/janaka/dev_ws/install/mecanum_drive_controller:/home/janaka/ros2_ws/install/mobile_project_pkg:/opt/ros/humble')]), 'shell': False}
+[1.495832] (mecanum_drive_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.499093] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.501182] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.502076] (admittance_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.502585] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.504506] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.504781] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.505108] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.505209] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.505315] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.505768] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.506419] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.507978] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.509132] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.509294] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.513607] (forward_command_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.513800] (-) TimerEvent: {}
+[1.514047] (force_torque_sensor_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.514140] (imu_sensor_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.514202] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.514248] (forward_command_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.514289] (joint_state_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.517737] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.517969] (joint_state_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.518023] (imu_sensor_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.518081] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.518124] (imu_sensor_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.518164] (forward_command_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.518219] (forward_command_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.518260] (force_torque_sensor_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.518350] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.518422] (force_torque_sensor_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.518467] (admittance_controller) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.518532] (admittance_controller) StdoutLine: {'line': b'See also "/home/janaka/dev_ws/build/admittance_controller/CMakeFiles/CMakeOutput.log".\n'}
+[1.518614] (joint_state_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.519004] (admittance_controller) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:66 (find_package):\n'}
+[1.519097] (admittance_controller) StderrLine: {'line': b'  By not providing "Findkinematics_interface_kdl.cmake" in CMAKE_MODULE_PATH\n'}
+[1.519148] (admittance_controller) StderrLine: {'line': b'  this project has asked CMake to find a package configuration file provided\n'}
+[1.519185] (admittance_controller) StderrLine: {'line': b'  by "kinematics_interface_kdl", but CMake did not find one.\n'}
+[1.519222] (admittance_controller) StderrLine: {'line': b'\n'}
+[1.519258] (admittance_controller) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.519292] (admittance_controller) StderrLine: {'line': b'  "kinematics_interface_kdl" with any of the following names:\n'}
+[1.519325] (admittance_controller) StderrLine: {'line': b'\n'}
+[1.519357] (admittance_controller) StderrLine: {'line': b'    kinematics_interface_kdlConfig.cmake\n'}
+[1.519392] (admittance_controller) StderrLine: {'line': b'    kinematics_interface_kdl-config.cmake\n'}
+[1.519426] (admittance_controller) StderrLine: {'line': b'\n'}
+[1.519462] (admittance_controller) StderrLine: {'line': b'  Add the installation prefix of "kinematics_interface_kdl" to\n'}
+[1.519505] (admittance_controller) StderrLine: {'line': b'  CMAKE_PREFIX_PATH or set "kinematics_interface_kdl_DIR" to a directory\n'}
+[1.519584] (admittance_controller) StderrLine: {'line': b'  containing one of the above files.  If "kinematics_interface_kdl" provides\n'}
+[1.519621] (admittance_controller) StderrLine: {'line': b'  a separate development package or SDK, be sure it has been installed.\n'}
+[1.519656] (admittance_controller) StderrLine: {'line': b'\n'}
+[1.519690] (admittance_controller) StderrLine: {'line': b'\x1b[0m\n'}
+[1.519818] (joint_state_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.531406] (pid_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.531955] (pid_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.532030] (pid_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.532078] (pid_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.532120] (pid_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.532163] (pid_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.532204] (pid_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.532244] (pid_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.532285] (pid_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.532328] (pid_controller) StdoutLine: {'line': b'-- Found angles: 1.15.0 (/opt/ros/humble/share/angles/cmake)\n'}
+[1.532369] (pid_controller) StdoutLine: {'line': b'-- Found control_msgs: 4.8.0 (/opt/ros/humble/share/control_msgs/cmake)\n'}
+[1.532407] (pid_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.532445] (pid_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.532485] (pid_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.532523] (pid_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.532575] (pid_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.532613] (pid_controller) StdoutLine: {'line': b'-- Found control_toolbox: 3.6.1 (/opt/ros/humble/share/control_toolbox/cmake)\n'}
+[1.532652] (pid_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.532689] (pid_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.532735] (pid_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.532773] (pid_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.532810] (pid_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.532847] (pid_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.532889] (pid_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.532926] (pid_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.532966] (pid_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.533004] (pid_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.533043] (pid_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.533079] (pid_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.533114] (pid_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.533149] (pid_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.533183] (pid_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.533217] (pid_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.533253] (pid_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.533290] (pid_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.534965] (admittance_controller) CommandEnded: {'returncode': 1}
+[1.543345] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.550363] (diff_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.550520] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.551214] (diff_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.556722] (diff_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.556948] (diff_drive_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.558453] (admittance_controller) JobEnded: {'identifier': 'admittance_controller', 'rc': 1}
+[1.592636] (gripper_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.593682] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.593863] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.596843] (forward_command_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.597269] (gripper_controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.597495] (gripper_controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.597849] (gripper_controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.600457] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.601742] (gripper_controllers) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.602511] (gripper_controllers) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.603112] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.604944] (joint_state_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.609329] (joint_trajectory_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.609532] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.609826] (joint_trajectory_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.613108] (joint_trajectory_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.613751] (joint_trajectory_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.613838] (-) TimerEvent: {}
+[1.619833] (steering_controllers_library) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.620002] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.620064] (steering_controllers_library) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.620111] (pid_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.620167] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.622393] (steering_controllers_library) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.624093] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.624746] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.624895] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.624991] (pid_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.628011] (steering_controllers_library) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.628726] (steering_controllers_library) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.628897] (pid_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.628951] (pid_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.629023] (steering_controllers_library) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.631009] (pid_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.631859] (pid_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.634682] (imu_sensor_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/imu_sensor_broadcaster\n'}
+[1.634883] (mecanum_drive_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.634950] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.634997] (mecanum_drive_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.637322] (joint_state_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.637520] (diff_drive_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.637837] (pid_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.638036] (pid_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.638207] (force_torque_sensor_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/force_torque_sensor_broadcaster\n'}
+[1.638372] (mecanum_drive_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.638749] (pid_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.639262] (mecanum_drive_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.639940] (pid_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.640127] (pid_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.640776] (pid_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.641830] (pid_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.642138] (pid_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.643633] (forward_command_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.643749] (pid_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.651646] (joint_state_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/joint_state_broadcaster\n'}
+[1.656041] (pose_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.656226] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.656282] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.656329] (pose_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.656373] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.656416] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.656460] (pose_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.656502] (pose_broadcaster) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.656554] (pose_broadcaster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.656604] (pose_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.656644] (pose_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.656683] (pose_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.656721] (pose_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.656758] (pose_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.656797] (pose_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.656835] (pose_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.656873] (pose_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.656910] (pose_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.656948] (pose_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.656984] (pose_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.657026] (pose_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.657063] (pose_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.657098] (pose_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.657134] (pose_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.657172] (pose_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.657208] (pose_broadcaster) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.657246] (pose_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.657283] (pose_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.657321] (pose_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.657359] (pose_broadcaster) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.657399] (pose_broadcaster) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.657438] (pose_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.657473] (pose_broadcaster) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.657509] (pose_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.657568] (pose_broadcaster) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.657608] (pose_broadcaster) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.657645] (pose_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.657683] (pose_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.657720] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.657756] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.657796] (pose_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.657833] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.657868] (pose_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.657903] (pose_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.657940] (pose_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.657976] (pose_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.658013] (pose_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.658927] (imu_sensor_broadcaster) JobEnded: {'identifier': 'imu_sensor_broadcaster', 'rc': 'SIGINT'}
+[1.660732] (pose_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/pose_broadcaster\n'}
+[1.660920] (forward_command_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/forward_command_controller\n'}
+[1.664948] (range_sensor_broadcaster) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.665123] (range_sensor_broadcaster) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.665172] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.665213] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.665251] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.665372] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.665419] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.665458] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.665495] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.665533] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.665596] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.665633] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.665672] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.665711] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.665750] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.665792] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.665836] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.665876] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.665916] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.665955] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.665995] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.666034] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.666073] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.666111] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.666148] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.666185] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.666223] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.666266] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.666304] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.666343] (range_sensor_broadcaster) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.666383] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.666421] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.666460] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.666498] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.666625] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.667046] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found generate_parameter_library: 0.5.0 (/opt/ros/humble/share/generate_parameter_library/cmake)\n'}
+[1.667104] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found parameter_traits: 0.5.0 (/opt/ros/humble/share/parameter_traits/cmake)\n'}
+[1.667362] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.667405] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.667445] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.667482] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.667521] (range_sensor_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.667577] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.667616] (range_sensor_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.667655] (range_sensor_broadcaster) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.667692] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.667730] (range_sensor_broadcaster) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.667768] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.667805] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Generating done\n'}
+[1.667843] (range_sensor_broadcaster) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/range_sensor_broadcaster\n'}
+[1.667890] (tricycle_controller) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.667951] (tricycle_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.667990] (tricycle_controller) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.668027] (tricycle_controller) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.668064] (tricycle_controller) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.668101] (tricycle_controller) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.668137] (tricycle_controller) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.668176] (tricycle_controller) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.668213] (tricycle_controller) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.668250] (tricycle_controller) StdoutLine: {'line': b'-- Found ackermann_msgs: 2.0.2 (/opt/ros/humble/share/ackermann_msgs/cmake)\n'}
+[1.668285] (tricycle_controller) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.668319] (tricycle_controller) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.668355] (tricycle_controller) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.668391] (tricycle_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.668428] (tricycle_controller) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.668468] (tricycle_controller) StdoutLine: {'line': b'-- Found controller_interface: 2.52.0 (/opt/ros/humble/share/controller_interface/cmake)\n'}
+[1.668512] (tricycle_controller) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.668562] (tricycle_controller) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.668607] (tricycle_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.668645] (tricycle_controller) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.668682] (tricycle_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.668720] (tricycle_controller) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.668758] (tricycle_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.668794] (tricycle_controller) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.668831] (tricycle_controller) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.668868] (tricycle_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h\n'}
+[1.668904] (tricycle_controller) StdoutLine: {'line': b'-- Looking for C++ include pthread.h - found\n'}
+[1.668942] (tricycle_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.668980] (tricycle_controller) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.669016] (tricycle_controller) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.669053] (tricycle_controller) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.0 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.669123] (tricycle_controller) StdoutLine: {'line': b'-- Found realtime_tools: 2.14.0 (/opt/ros/humble/share/realtime_tools/cmake)\n'}
+[1.669162] (tricycle_controller) StdoutLine: {'line': b'-- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.669201] (tricycle_controller) StdoutLine: {'line': b'-- Found tf2: 0.25.16 (/opt/ros/humble/share/tf2/cmake)\n'}
+[1.669242] (tricycle_controller) StdoutLine: {'line': b'-- Found tf2_msgs: 0.25.16 (/opt/ros/humble/share/tf2_msgs/cmake)\n'}
+[1.669282] (tricycle_controller) StdoutLine: {'line': b'-- Found ament_cmake_gmock: 1.3.12 (/opt/ros/humble/share/ament_cmake_gmock/cmake)\n'}
+[1.669323] (tricycle_controller) StdoutLine: {'line': b'-- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.669363] (tricycle_controller) StdoutLine: {'line': b'-- Found ros2_control_test_assets: 2.52.0 (/opt/ros/humble/share/ros2_control_test_assets/cmake)\n'}
+[1.669403] (tricycle_controller) StdoutLine: {'line': b"-- Found gmock sources under '/opt/ros/humble/src/gmock_vendor': C++ tests using 'Google Mock' will be built\n"}
+[1.669444] (force_torque_sensor_broadcaster) JobEnded: {'identifier': 'force_torque_sensor_broadcaster', 'rc': 'SIGINT'}
+[1.670869] (range_sensor_broadcaster) JobEnded: {'identifier': 'range_sensor_broadcaster', 'rc': 'SIGINT'}
+[1.673411] (ros2_controllers_test_nodes) StdoutLine: {'line': b'running develop\n'}
+[1.673522] (ros2_controllers_test_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[1.673582] (ros2_controllers_test_nodes) StdoutLine: {'line': b'creating ros2_controllers_test_nodes.egg-info\n'}
+[1.673622] (ros2_controllers_test_nodes) StdoutLine: {'line': b'writing ros2_controllers_test_nodes.egg-info/PKG-INFO\n'}
+[1.673661] (ros2_controllers_test_nodes) StdoutLine: {'line': b'writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt\n'}
+[1.673699] (ros2_controllers_test_nodes) StdoutLine: {'line': b'writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt\n'}
+[1.673737] (ros2_controllers_test_nodes) StdoutLine: {'line': b'writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt\n'}
+[1.673776] (ros2_controllers_test_nodes) StdoutLine: {'line': b'writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt\n'}
+[1.673818] (ros2_controllers_test_nodes) StdoutLine: {'line': b"writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'\n"}
+[1.673857] (ros2_controllers_test_nodes) StdoutLine: {'line': b"reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'\n"}
+[1.673893] (ros2_controllers_test_nodes) StdoutLine: {'line': b"writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'\n"}
+[1.673929] (ros2_controllers_test_nodes) StdoutLine: {'line': b'running build_ext\n'}
+[1.673966] (ros2_controllers_test_nodes) StdoutLine: {'line': b'Creating /home/janaka/dev_ws/install/ros2_controllers_test_nodes/lib/python3.10/site-packages/ros2-controllers-test-nodes.egg-link (link to .)\n'}
+[1.674010] (ros2_controllers_test_nodes) StdoutLine: {'line': b'Installing publisher_forward_position_controller script to /home/janaka/dev_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes\n'}
+[1.674051] (ros2_controllers_test_nodes) StdoutLine: {'line': b'Installing publisher_joint_trajectory_controller script to /home/janaka/dev_ws/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes\n'}
+[1.674090] (ros2_controllers_test_nodes) StdoutLine: {'line': b'\n'}
+[1.674130] (ros2_controllers_test_nodes) StdoutLine: {'line': b'Installed /home/janaka/dev_ws/build/ros2_controllers_test_nodes\n'}
+[1.674173] (ros2_controllers_test_nodes) StdoutLine: {'line': b'running symlink_data\n'}
+[1.674211] (ros2_controllers_test_nodes) StdoutLine: {'line': b'creating /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ament_index\n'}
+[1.674252] (ros2_controllers_test_nodes) StdoutLine: {'line': b'creating /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index\n'}
+[1.674289] (ros2_controllers_test_nodes) StdoutLine: {'line': b'creating /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages\n'}
+[1.674326] (ros2_controllers_test_nodes) StdoutLine: {'line': b'symbolically linking /home/janaka/dev_ws/build/ros2_controllers_test_nodes/resource/ros2_controllers_test_nodes -> /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages\n'}
+[1.674367] (ros2_controllers_test_nodes) StdoutLine: {'line': b'symbolically linking /home/janaka/dev_ws/build/ros2_controllers_test_nodes/package.xml -> /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes\n'}
+[1.674410] (ros2_controllers_test_nodes) StdoutLine: {'line': b'creating /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test\n'}
+[1.674451] (ros2_controllers_test_nodes) StdoutLine: {'line': b'symbolically linking /home/janaka/dev_ws/build/ros2_controllers_test_nodes/test/rrbot_forward_position_publisher.yaml -> /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test\n'}
+[1.674490] (ros2_controllers_test_nodes) StdoutLine: {'line': b'symbolically linking /home/janaka/dev_ws/build/ros2_controllers_test_nodes/test/rrbot_joint_trajectory_publisher.yaml -> /home/janaka/dev_ws/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test\n'}
+[1.674538] (joint_state_broadcaster) JobEnded: {'identifier': 'joint_state_broadcaster', 'rc': 'SIGINT'}
+[1.674823] (gpio_controllers) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mRunning `/opt/ros/humble/bin/generate_parameter_library_cpp /home/janaka/dev_ws/build/gpio_controllers/include/gpio_controllers/gpio_command_controller_parameters.hpp /home/janaka/dev_ws/src/ros2_controllers/gpio_controllers/src/gpio_command_controller_parameters.yaml `\x1b[0m\n'}
+[1.674918] (gpio_controllers) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o\x1b[0m\n'}
+[1.674975] (gpio_controllers) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o\x1b[0m\n'}
+[1.675018] (gpio_controllers) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/humble/src/gtest_vendor/src/gtest-all.cc.o\x1b[0m\n'}
+[1.675068] (diff_drive_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.675125] (ros2_controllers_test_nodes) JobEnded: {'identifier': 'ros2_controllers_test_nodes', 'rc': 'SIGINT'}
+[1.679821] (gripper_controllers) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.681866] (diff_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/diff_drive_controller\n'}
+[1.684329] (pose_broadcaster) JobEnded: {'identifier': 'pose_broadcaster', 'rc': 'SIGINT'}
+[1.685948] (forward_command_controller) JobEnded: {'identifier': 'forward_command_controller', 'rc': 'SIGINT'}
+[1.692307] (joint_trajectory_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.695488] (steering_controllers_library) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.696439] (tricycle_controller) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.700778] (diff_drive_controller) JobEnded: {'identifier': 'diff_drive_controller', 'rc': 'SIGINT'}
+[1.703290] (tricycle_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.704655] (pid_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.712078] (gripper_controllers) StdoutLine: {'line': b'-- Generating done\n'}
+[1.713927] (-) TimerEvent: {}
+[1.714700] (mecanum_drive_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.719598] (gripper_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/gripper_controllers\n'}
+[1.721608] (steering_controllers_library) StdoutLine: {'line': b'-- Generating done\n'}
+[1.730106] (steering_controllers_library) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/steering_controllers_library\n'}
+[1.734601] (joint_trajectory_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.737070] (gripper_controllers) JobEnded: {'identifier': 'gripper_controllers', 'rc': 'SIGINT'}
+[1.747656] (steering_controllers_library) JobEnded: {'identifier': 'steering_controllers_library', 'rc': 'SIGINT'}
+[1.749578] (joint_trajectory_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/joint_trajectory_controller\n'}
+[1.750156] (mecanum_drive_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.751347] (pid_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.759720] (mecanum_drive_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/mecanum_drive_controller\n'}
+[1.762605] (pid_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/pid_controller\n'}
+[1.765895] (joint_trajectory_controller) JobEnded: {'identifier': 'joint_trajectory_controller', 'rc': 'SIGINT'}
+[1.770119] (gpio_controllers) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mCreating deprecated header file /home/janaka/dev_ws/build/gpio_controllers/include/gpio_command_controller_parameters.hpp\x1b[0m\n'}
+[1.774233] (mecanum_drive_controller) JobEnded: {'identifier': 'mecanum_drive_controller', 'rc': 'SIGINT'}
+[1.779753] (pid_controller) JobEnded: {'identifier': 'pid_controller', 'rc': 'SIGINT'}
+[1.782859] (tricycle_controller) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.784754] (gpio_controllers) StdoutLine: {'line': b'[ 38%] Built target gpio_command_controller_parameters\n'}
+[1.787260] (tricycle_controller) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.787475] (tricycle_controller) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.787756] (tricycle_controller) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.790807] (tricycle_controller) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[1.791492] (tricycle_controller) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[1.803068] (gpio_controllers) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/gpio_controllers.dir/src/gpio_command_controller.cpp.o\x1b[0m\n'}
+[1.814006] (-) TimerEvent: {}
+[1.841371] (tricycle_controller) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.866389] (tricycle_controller) StdoutLine: {'line': b'-- Generating done\n'}
+[1.875099] (tricycle_controller) StdoutLine: {'line': b'-- Build files have been written to: /home/janaka/dev_ws/build/tricycle_controller\n'}
+[1.887110] (tricycle_controller) JobEnded: {'identifier': 'tricycle_controller', 'rc': 'SIGINT'}
+[1.914120] (-) TimerEvent: {}
+[2.014397] (-) TimerEvent: {}
+[2.097811] (gpio_controllers) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX static library libgmock_main.a\x1b[0m\n'}
+[2.114522] (-) TimerEvent: {}
+[2.131164] (gpio_controllers) StdoutLine: {'line': b'[ 53%] Built target gmock_main\n'}
+[2.214616] (-) TimerEvent: {}
+[2.314935] (-) TimerEvent: {}
+[2.415222] (-) TimerEvent: {}
+[2.515521] (-) TimerEvent: {}
+[2.615876] (-) TimerEvent: {}
+[2.716182] (-) TimerEvent: {}
+[2.816482] (-) TimerEvent: {}
+[2.916754] (-) TimerEvent: {}
+[3.017077] (-) TimerEvent: {}
+[3.117393] (-) TimerEvent: {}
+[3.217685] (-) TimerEvent: {}
+[3.318029] (gpio_controllers) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX static library libgmock.a\x1b[0m\n'}
+[3.318232] (-) TimerEvent: {}
+[3.377927] (gpio_controllers) StdoutLine: {'line': b'[ 61%] Built target gmock\n'}
+[3.396905] (gpio_controllers) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/test_load_gpio_command_controller.dir/test/test_load_gpio_command_controller.cpp.o\x1b[0m\n'}
+[3.418374] (-) TimerEvent: {}
+[3.518703] (-) TimerEvent: {}
+[3.619010] (-) TimerEvent: {}
+[3.719936] (-) TimerEvent: {}
+[3.820233] (-) TimerEvent: {}
+[3.920561] (-) TimerEvent: {}
+[4.020895] (-) TimerEvent: {}
+[4.121224] (-) TimerEvent: {}
+[4.221565] (-) TimerEvent: {}
+[4.321889] (-) TimerEvent: {}
+[4.422215] (-) TimerEvent: {}
+[4.522563] (-) TimerEvent: {}
+[4.622895] (-) TimerEvent: {}
+[4.723253] (-) TimerEvent: {}
+[4.823656] (-) TimerEvent: {}
+[4.923988] (-) TimerEvent: {}
+[5.024313] (-) TimerEvent: {}
+[5.124616] (-) TimerEvent: {}
+[5.224923] (-) TimerEvent: {}
+[5.325269] (-) TimerEvent: {}
+[5.425595] (-) TimerEvent: {}
+[5.525909] (-) TimerEvent: {}
+[5.626204] (-) TimerEvent: {}
+[5.726542] (-) TimerEvent: {}
+[5.826872] (-) TimerEvent: {}
+[5.927174] (-) TimerEvent: {}
+[6.027445] (-) TimerEvent: {}
+[6.127775] (-) TimerEvent: {}
+[6.228090] (-) TimerEvent: {}
+[6.328413] (-) TimerEvent: {}
+[6.343179] (gpio_controllers) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable test_load_gpio_command_controller\x1b[0m\n'}
+[6.428558] (-) TimerEvent: {}
+[6.528885] (-) TimerEvent: {}
+[6.538877] (gpio_controllers) StdoutLine: {'line': b'[ 76%] Built target test_load_gpio_command_controller\n'}
+[6.629003] (-) TimerEvent: {}
+[6.729308] (-) TimerEvent: {}
+[6.829611] (-) TimerEvent: {}
+[6.929915] (-) TimerEvent: {}
+[7.030222] (-) TimerEvent: {}
+[7.130549] (-) TimerEvent: {}
+[7.230851] (-) TimerEvent: {}
+[7.331155] (-) TimerEvent: {}
+[7.431464] (-) TimerEvent: {}
+[7.531785] (-) TimerEvent: {}
+[7.632084] (-) TimerEvent: {}
+[7.681726] (gpio_controllers) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking CXX shared library libgpio_controllers.so\x1b[0m\n'}
+[7.732186] (-) TimerEvent: {}
+[7.832510] (-) TimerEvent: {}
+[7.932857] (-) TimerEvent: {}
+[7.967948] (gpio_controllers) StdoutLine: {'line': b'[ 84%] Built target gpio_controllers\n'}
+[7.987829] (gpio_controllers) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/test_gpio_command_controller.dir/test/test_gpio_command_controller.cpp.o\x1b[0m\n'}
+[8.032954] (-) TimerEvent: {}
+[8.133255] (-) TimerEvent: {}
+[8.233565] (-) TimerEvent: {}
+[8.333846] (-) TimerEvent: {}
+[8.434134] (-) TimerEvent: {}
+[8.534464] (-) TimerEvent: {}
+[8.634786] (-) TimerEvent: {}
+[8.735101] (-) TimerEvent: {}
+[8.835387] (-) TimerEvent: {}
+[8.935712] (-) TimerEvent: {}
+[9.036012] (-) TimerEvent: {}
+[9.136331] (-) TimerEvent: {}
+[9.236596] (-) TimerEvent: {}
+[9.336884] (-) TimerEvent: {}
+[9.437190] (-) TimerEvent: {}
+[9.537491] (-) TimerEvent: {}
+[9.637821] (-) TimerEvent: {}
+[9.738150] (-) TimerEvent: {}
+[9.838453] (-) TimerEvent: {}
+[9.938767] (-) TimerEvent: {}
+[10.039084] (-) TimerEvent: {}
+[10.139389] (-) TimerEvent: {}
+[10.239719] (-) TimerEvent: {}
+[10.340022] (-) TimerEvent: {}
+[10.440335] (-) TimerEvent: {}
+[10.540654] (-) TimerEvent: {}
+[10.640962] (-) TimerEvent: {}
+[10.741285] (-) TimerEvent: {}
+[10.841595] (-) TimerEvent: {}
+[10.941894] (-) TimerEvent: {}
+[11.042218] (-) TimerEvent: {}
+[11.142506] (-) TimerEvent: {}
+[11.242840] (-) TimerEvent: {}
+[11.343133] (-) TimerEvent: {}
+[11.443452] (-) TimerEvent: {}
+[11.543751] (-) TimerEvent: {}
+[11.644075] (-) TimerEvent: {}
+[11.744400] (-) TimerEvent: {}
+[11.844732] (-) TimerEvent: {}
+[11.945039] (-) TimerEvent: {}
+[12.045366] (-) TimerEvent: {}
+[12.145709] (-) TimerEvent: {}
+[12.246037] (-) TimerEvent: {}
+[12.346335] (-) TimerEvent: {}
+[12.446617] (-) TimerEvent: {}
+[12.546890] (-) TimerEvent: {}
+[12.647172] (-) TimerEvent: {}
+[12.747470] (-) TimerEvent: {}
+[12.847755] (-) TimerEvent: {}
+[12.948031] (-) TimerEvent: {}
+[13.048346] (-) TimerEvent: {}
+[13.148665] (-) TimerEvent: {}
+[13.248941] (-) TimerEvent: {}
+[13.349226] (-) TimerEvent: {}
+[13.449500] (-) TimerEvent: {}
+[13.549796] (-) TimerEvent: {}
+[13.650071] (-) TimerEvent: {}
+[13.750381] (-) TimerEvent: {}
+[13.850674] (-) TimerEvent: {}
+[13.950966] (-) TimerEvent: {}
+[14.051268] (-) TimerEvent: {}
+[14.151594] (-) TimerEvent: {}
+[14.251907] (-) TimerEvent: {}
+[14.352212] (-) TimerEvent: {}
+[14.452522] (-) TimerEvent: {}
+[14.552824] (-) TimerEvent: {}
+[14.653120] (-) TimerEvent: {}
+[14.753718] (-) TimerEvent: {}
+[14.821421] (gpio_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable test_gpio_command_controller\x1b[0m\n'}
+[14.853823] (-) TimerEvent: {}
+[14.954107] (-) TimerEvent: {}
+[15.054431] (-) TimerEvent: {}
+[15.154761] (-) TimerEvent: {}
+[15.215656] (gpio_controllers) StdoutLine: {'line': b'[100%] Built target test_gpio_command_controller\n'}
+[15.227217] (gpio_controllers) JobEnded: {'identifier': 'gpio_controllers', 'rc': 'SIGINT'}
+[15.237724] (my_bot) JobSkipped: {'identifier': 'my_bot'}
+[15.237875] (rqt_joint_trajectory_controller) JobSkipped: {'identifier': 'rqt_joint_trajectory_controller'}
+[15.237918] (ackermann_steering_controller) JobSkipped: {'identifier': 'ackermann_steering_controller'}
+[15.237948] (bicycle_steering_controller) JobSkipped: {'identifier': 'bicycle_steering_controller'}
+[15.237978] (effort_controllers) JobSkipped: {'identifier': 'effort_controllers'}
+[15.238004] (mecanumdrive_arduino) JobSkipped: {'identifier': 'mecanumdrive_arduino'}
+[15.238028] (position_controllers) JobSkipped: {'identifier': 'position_controllers'}
+[15.238054] (tricycle_steering_controller) JobSkipped: {'identifier': 'tricycle_steering_controller'}
+[15.238078] (velocity_controllers) JobSkipped: {'identifier': 'velocity_controllers'}
+[15.238103] (ros2_controllers) JobSkipped: {'identifier': 'ros2_controllers'}
+[15.238130] (-) EventReactorShutdown: {}

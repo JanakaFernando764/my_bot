@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+3fefdae6ead9bcf368a8dd1fd244d035 CMakeFiles/pose_broadcaster_uninstall
+6d83d50ed427bbdc87670df6f10bc7f2 include/pose_broadcaster/pose_broadcaster_parameters.hpp
+5cafd3497b118f2416c04a7ed1086ef5 include/pose_broadcaster_parameters.hpp

@@ -1,0 +1,45 @@
+[0.009s] Invoking command in '/home/janaka/dev_ws/build/mecanumdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janaka/dev_ws/build/mecanumdrive_arduino -- -j16 -l16
+[0.046s] [35m[1mConsolidate compiler generated dependencies of target mecanumdrive_arduino[0m
+[0.059s] [100%] Built target mecanumdrive_arduino
+[0.068s] Invoked command in '/home/janaka/dev_ws/build/mecanumdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/janaka/dev_ws/build/mecanumdrive_arduino -- -j16 -l16
+[0.069s] Invoking command in '/home/janaka/dev_ws/build/mecanumdrive_arduino': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janaka/dev_ws/build/mecanumdrive_arduino
+[0.074s] -- Install configuration: ""
+[0.075s] -- Execute custom install script
+[0.075s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino//mecanumdrive_arduino.xml
+[0.075s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/include/mecanumdrive_arduino/mecanumdrive_arduino/arduino_comms.hpp
+[0.075s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/include/mecanumdrive_arduino/mecanumdrive_arduino/diffbot_system.hpp
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/include/mecanumdrive_arduino/mecanumdrive_arduino/visibility_control.h
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/include/mecanumdrive_arduino/mecanumdrive_arduino/wheel.hpp
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/launch/view_robot.launch.py
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/ros2_control/diffbot.ros2_control.xacro
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/urdf/diffbot.materials.xacro
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/urdf/diffbot.urdf.xacro
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/urdf/diffbot_description.urdf.xacro
+[0.076s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/rviz/diffbot.rviz
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/rviz/diffbot_view.rviz
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/launch/diffbot.launch.py
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/config/diffbot_controllers.yaml
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/environment/library_path.sh
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/environment/library_path.dsv
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/ament_index/resource_index/package_run_dependencies/mecanumdrive_arduino
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/ament_index/resource_index/parent_prefix_path/mecanumdrive_arduino
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/environment/path.sh
+[0.078s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/environment/path.dsv
+[0.078s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/local_setup.bash
+[0.078s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/local_setup.sh
+[0.079s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/local_setup.zsh
+[0.079s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/local_setup.dsv
+[0.079s] -- Symlinking: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/package.dsv
+[0.085s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/ament_index/resource_index/packages/mecanumdrive_arduino
+[0.085s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/mecanumdrive_arduino
+[0.086s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/cmake/ament_cmake_export_targets-extras.cmake
+[0.086s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.086s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/cmake/mecanumdrive_arduinoConfig.cmake
+[0.086s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/cmake/mecanumdrive_arduinoConfig-version.cmake
+[0.086s] -- Up-to-date symlink: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/package.xml
+[0.086s] -- Up-to-date: /home/janaka/dev_ws/install/mecanumdrive_arduino/lib/libmecanumdrive_arduino.so
+[0.087s] -- Up-to-date: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/cmake/export_mecanumdrive_arduinoExport.cmake
+[0.087s] -- Up-to-date: /home/janaka/dev_ws/install/mecanumdrive_arduino/share/mecanumdrive_arduino/cmake/export_mecanumdrive_arduinoExport-noconfig.cmake
+[0.090s] Invoked command in '/home/janaka/dev_ws/build/mecanumdrive_arduino' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/janaka/dev_ws/build/mecanumdrive_arduino

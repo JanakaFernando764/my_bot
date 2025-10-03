@@ -7,6 +7,7 @@
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/robot_core.xacro
 /home/janaka/dev_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+/home/janaka/dev_ws/install/my_bot/share/my_bot/launch/launch_robot.launch.py
 /home/janaka/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
 /home/janaka/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/janaka/dev_ws/install/my_bot/share/my_bot/worlds/empty.world
