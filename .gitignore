@@ -2,3 +2,6 @@
 .vscode/
 **/.vscode/
 *.vc.db
+.vscode/
+**/.vscode/
+*.vc.db
